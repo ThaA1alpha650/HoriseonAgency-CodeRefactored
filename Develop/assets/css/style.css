@@ -54,6 +54,7 @@ p {
 }
 
 .hero {
+    display: block;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -72,21 +73,32 @@ p {
     margin-left: 25px;
 }
 
-.content {
+
+/* shout out to https://github.com/dmidlo/code-refactor for helping me through this part bevcause although I understand the basics of re-assigning broader classes in some cases and more specific or at least specifying them "better", I did really struggle with this part.
+*/
+
+.services-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    color: var(--horiseon-text-color);
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: #2589bd;
+.services-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--horiseon-body-font-family);
+    background-color: var(--horiseon-element-bg-color);
+}
+
+.services-article img {
+    max-height: 200px;
+}
+
+.services-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefit-lead {
