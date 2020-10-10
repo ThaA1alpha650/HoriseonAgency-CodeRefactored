@@ -81,7 +81,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    color: var(--horiseon-text-color);
+    color: grey;
 }
 
 .services-article {
@@ -89,7 +89,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: var(--horiseon-body-font-family);
-    background-color: var(--horiseon-element-bg-color);
+    background-color: #0072bb;
 }
 
 .services-article img {
@@ -112,9 +112,9 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: var(--horiseon-body-font-family);
-    background-color: var(--horiseon-element-bg-color);
-    color: var(--horiseon-text-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: grey;
 }
 
 .benefit-article {
